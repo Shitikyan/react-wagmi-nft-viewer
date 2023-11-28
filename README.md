@@ -21,13 +21,13 @@ This React application allows users to connect their wallet, input an NFT contra
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Shitikyan/react-wagmi-viem.git
+   git clone https://github.com/Shitikyan/react-wagmi-nft-viewer.git
    ```
 
 ## Navigate to the project directory:
 
 ```
-cd react-wagmi-viem
+cd react-wagmi-nft-viewer
 ```
 
 ## Copy the environment file:
