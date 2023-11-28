@@ -30,6 +30,14 @@ This React application allows users to connect their wallet, input an NFT contra
 cd react-wagmi-viem
 ```
 
+## Copy the environment file:
+
+```
+cp .env.example .env
+```
+
+Update the newly created .env file with your configurations.
+
 ## Install dependencies:
 
 ```
