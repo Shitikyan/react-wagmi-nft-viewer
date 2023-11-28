@@ -10,6 +10,7 @@ import erc721Methods from '../../helpers/erc721Methods';
 import erc1155Methods from '../../helpers/erc1155Methods';
 import { injectedConnector } from '../../clients/wagmiClient';
 import { fetchStatuses } from '../../utils/constants';
+import { wait } from '../../helpers/wait';
 
 export default function Home() {
   const { isConnected } = useAccount();
@@ -64,6 +65,7 @@ export default function Home() {
             if (metadata) {
               nfts.push(metadata);
             }
+            await wait(100);
           }
         }
 
@@ -87,6 +89,7 @@ export default function Home() {
         if (ownerOf === data?.account) {
           tokenIds.push(i);
         }
+        await wait(100);
       }
 
       let nfts = [];
